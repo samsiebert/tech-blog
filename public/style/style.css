@@ -91,6 +91,10 @@
     padding: 2% 4%;
   }
   
+  .post-content {
+    margin: 0;
+  }
+  
   .btn-no-style {
     background: none;
     border: none;
@@ -122,11 +126,6 @@
     line-height: 150%;
   }
   
-  .post .title span {
-    font-style: italic;
-    font-size: 90%;
-    color: #7d7d7d;
-  }
   
   .edit-link {
     display: block;
@@ -145,12 +144,6 @@
   
   .comment:nth-child(odd) {
     background-color: #fff5eb;
-  }
-  
-  .comment .meta {
-    font-size: 90%;
-    margin-bottom: .5%;
-    opacity: .6;
   }
   
   .new-post-form input {
